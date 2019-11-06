@@ -1,6 +1,18 @@
 export class PersonClass {
-    public firstName: string;
-    public lastName: string;
+    public readonly firstName: string;
+    public readonly lastName: string;
     public age: boolean
     private bankAccount: number; 
+
+    constructor(data) {
+        this.firstName = data.firstName;
+    }
+
+    public example() {
+
+    }
+
+    private privateExample() {
+
+    }
 }
