@@ -1,5 +1,5 @@
 
-export interface InumsExample{
-    num1: number,
-    num2: number
+export interface INumsExample{
+    num3: number,
+    num4: number
 }
